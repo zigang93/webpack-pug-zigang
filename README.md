@@ -1,10 +1,10 @@
 # Webpack + bootstrap + pug + scss Starter
 
 List of command line: 
-- `npm i` install all packages.  
+`npm i` install all packages.  
 
-- `npm run dev-w` - Watch mode in development  
-- `npm run dev-s` - Webpack server with hot   reload - development ( Fast reload )  
+`npm run dev-w` - Watch mode in development  
+`npm run dev-s` - Webpack server with hot   reload - development ( Fast reload )  
 `npm run dev` - Development mode, inline css only becasue not need clear cache reload.  
 
 `npm run prod-w` - Watch mode in product  
