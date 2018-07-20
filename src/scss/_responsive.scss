@@ -1,0 +1,25 @@
+// Start responsive code here
+
+// No media query for `xs` since this is the default in Bootstrap
+
+// min-width: 576px
+@include media-breakpoint-down(sm) {
+
+}
+
+// min-width: 768px
+@include media-breakpoint-down(md) {
+
+}
+
+// min-width: 992px
+@include media-breakpoint-down(lg) {
+
+}
+
+// min-width: 1200px
+@include media-breakpoint-up(xl) {
+    html {
+        background-color: bisque;
+    }
+}

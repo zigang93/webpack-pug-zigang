@@ -1,0 +1,27 @@
+extends model/layout.pug
+
+block title
+  title index.html page
+
+block content
+  h1 Hello, world!!
+  h4 this is the index.html
+  img(src=require('../img/cream.jpg') width="100px" height="100px")
+  span
+    i.fa.fa-user
+  // Button trigger modal
+  button.btn.btn-primary(type="button" data-toggle="modal" data-target="#exampleModal")
+    | Launch demo modal
+  // Modal
+  #exampleModal.modal.fade(tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true")
+    .modal-dialog(role="document")
+      .modal-content
+        .modal-header
+          h5#exampleModalLabel.modal-title Modal title
+          button.close(type="button" data-dismiss="modal" aria-label="Close")
+            span(aria-hidden="true") ×
+        .modal-body
+          | ...
+        .modal-footer
+          button.btn.btn-secondary(type="button" data-dismiss="modal") Close
+          button.btn.btn-primary(type="button") Save changes

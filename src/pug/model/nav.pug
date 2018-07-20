@@ -1,0 +1,22 @@
+// Menu
+nav.navbar.navbar-expand-md.navbar-light.fixed-top.bg-light
+  a.navbar-brand(href="#") Logo
+  // Mobile btn
+  button.navbar-toggler(type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expended="false" aria-lanel="Toggle Menu")
+    span.navbar-toggler-icon
+  // Menu list  
+  div.collapse.navbar-collapse#mainMenu
+    // Left menu
+    ul.navbar-nav
+      li.nav-item.active
+        a.nav-link(href="#") Home 
+          span.sr-only (current)
+      li.nav-item
+        a.nav-link(href="#") Menu2
+      li.nav-item
+        a.nav-link(href="#") Menu3
+      li.nav-item
+        a.nav-link(href="#") Menu4
+    // Right menu
+    ul.navbar-nav.ml-auto
+        button.btn.btn-outline-success.my-2.my-sm-0(type="submit") Donate  
